@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LevelUp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="video-bg">
+            <video src="./img/video.mp4" type="video/mp4" autoplay muted loop></video>
+        </div>
+        <h1>LevelUp</h1>
+
+        <div class="product-container">
+            <div class="product-img-wrapper bg-animate">
+                <img class="product-img" src="./img/prod.png" alt="Продукт">
+            </div>
+            <div class="description-product">
+                <ul class="feature-list">
+                    <li class="feature-item">1 характеристика</li>
+                    <li class="feature-item">2 харакатеристика</li>
+                    <li class="feature-item">3 характеристика</li>
+                </ul>
+                <button class="btn btn-action">Заказать</button>
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <section class="section-composition">
+            <div class="ingredients-items">
+                <div class="ingredients-item">
+                    <img src="./img/infred.jpg" alt="Ингредиент" class="img-item">
+                    <span class="title-ingredient">Важный ингредиент</span>
+                </div>
+                <div class="ingredients-item">
+                    <img src="./img/infred.jpg" alt="Ингредиент" class="img-item">
+                    <span class="title-ingredient">Еще один</span>
+                </div>
+                <div class="ingredients-item">
+                    <img src="./img/infred.jpg" alt="Ингредиент" class="img-item">
+                    <span class="title-ingredient">Без него скучно</span>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img-wrapper">
+                    <img class="product-img" src="./img/prod.png" alt="Продукт">
+                </div>
+                <button class="btn btn-action">Заказать</button>
+            </div>
+
+            <div class="ingredients-items">
+                <div class="ingredients-item">
+                    <img src="./img/infred.jpg" alt="Ингредиент" class="img-item">
+                    <span class="title-ingredient">Тут что то умное</span>
+                </div>
+                <div class="ingredients-item">
+                    <img src="./img/infred.jpg" alt="Ингредиент" class="img-item">
+                    <span class="title-ingredient">Придется загуглить</span>
+                </div>
+                <div class="ingredients-item">
+                    <img src="./img/infred.jpg" alt="Ингредиент" class="img-item">
+                    <span class="title-ingredient">Удивишься, да</span>
+                </div>
+            </div>
+        </section>
+        <section class="section-reviews">
+            <div class="carousel-wrapper">
+                <div class="slide-review open-slide">
+                    <div class="photo-review">
+                        <img class="photo" src="./img/nevskiy.jpg" alt="Фотография">
+                    </div>
+                    <p class="name-review">Александр Невский</p>
+                    <p class="text-review">
+                        Не следует, однако забывать, что укрепление и развитие структуры способствует
+                        подготовки и реализации позиций, занимаемых участниками в отношении поставленных задач. Идейные
+                        соображения высшего порядка, а также дальнейшее развитие различных форм деятельности позволяет
+                        оценить значение систем массового участия.
+                    </p>
+                </div>
+                <div class="slide-review next-slide">
+                    <div class="photo-review">
+                        <img class="photo" src="./img/anton.jpg" alt="Фотография">
+                    </div>
+                    <p class="name-review">Антон Хлебников</p>
+                    <p class="text-review">
+                        Не следует, однако забывать, что укрепление и развитие структуры способствует
+                        подготовки и реализации позиций, занимаемых участниками в отношении поставленных задач. Идейные
+                        соображения высшего порядка, а также дальнейшее развитие различных форм деятельности позволяет
+                        оценить значение систем массового участия. Не следует, однако забывать, что укрепление и
+                        развитие структуры способствует
+                        подготовки и реализации позиций
+                    </p>
+                </div>
+                <div class="slide-review prev-slide">
+                    <div class="photo-review">
+                        <img class="photo" src="./img/rayan.jpg" alt="Фотография">
+                    </div>
+                    <p class="name-review">Райан Гослинг</p>
+                    <p class="text-review">
+                        Не следует, однако забывать, что укрепление и развитие структуры способствует
+                        подготовки и реализации позиций, занимаемых участниками в отношении поставленных задач. Идейные.
+                    </p>
+                </div>
+            </div>
+            <div class="control-slide next" onclick="nextSlide()"></div>
+            <div class="control-slide prev" onclick="prevSlide()"></div>
+        </section>
+        <section class="section-promo">
+            <div class="wrapper-promo">
+                <div class="photo-doctor-wrapper">
+                    <img src="./img/doctor.png" alt="Доктор">
+                </div>
+                <div class="promo-description">
+
+                    Не следует, однако забывать, что дальнейшее развитие различных форм деятельности требуют от нас
+                    анализа позиций, занимаемых участниками в отношении поставленных задач. Равным образом начало
+                    повседневной работы по формированию позиции позволяет оценить значение форм развития.
+
+                </div>
+            </div>
+            <ul class="feature-list list-inline">
+                <li class="feature-item">1 характеристика</li>
+                <li class="feature-item">2 харакатеристика</li>
+                <li class="feature-item">3 характеристика</li>
+            </ul>
+            <button class="btn btn-action">Заказать</button>
+        </section>
+
+        <section class="section-form">
+            <h2>LevelUp</h2>
+            <div class="timer">
+                <span class="timer-min">30</span>:<span class="timer-sec">00</span>
+            </div>
+            <div class="wrapper-form">
+                <div class="product-wrapper">
+                    <div class="product-img-wrapper">
+                        <img class="product-img" src="./img/prod.png" alt="Продукт">
+                    </div>
+                    <div class="product-price">
+                        <span class="old-price">10000 ₽</span>
+                        <span class="new-price">4999 ₽</span>
+                    </div>
+                </div>
+                <form id="form" class="form" action="">
+                    <label for="name">
+                        <input type="text" name="name" id="name" required placeholder="Имя">
+                        <span>Пример: Антон</span>
+                    </label>
+
+                    <label for="phone">
+                        <input type="number" name="phone" id="phone" required placeholder="Телефон">
+                        <span>Пример: +79998885522</span>
+                    </label>
+
+                    <input type="submit" class="btn-action" value="Отправить">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
